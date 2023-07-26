@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Gilang's Site</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/2f388422d2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav id="home">
+      <img src="Gilang's Site (1).png" />
+      <div class="navbar">
+        <a class="button1" href="#introduction">Intro</a>
+        <a class="button1" href="#education">Skills</a>
+        <a class="button1" href="#testimony">Testimony</a>
+        <a class="button1" href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <div class="header1">
+      <h1 class="txt1">Welcome To My Site</h1>
+      <h3 class="txt2">Learn Everything About Me</h3>
+      <div id="button">
+        <a class="button" href="#introduction">Get Started</a>
+       <button class="button two" id="signup">Sign Up</button>
+      </div>
+    </div>
+
+    <!-- MODAL -->
+    <div class="modal-overlay">
+      <div class="modal">
+        <button class="closebtn">
+          <i class="fas fa-times"> </i>
+        </button>
+        <h1>Sign Up</h1>
+<form action="">
+  
+  <input type="text" id="username" placeholder="Username" autocomplete="off" required>
+  <input type="password" id="password" placeholder="Password" required>
+  <label for="tnc">
+    <input type="checkbox" id="tnc" value="agree"> I agree with terms and conditions
+  </label>
+  <button type="submit" class="signup locked">Sign Up</button>
+  
+</form>
+      </div>
+    </div>
+      
+    <div class="content">
+      <section id="introduction">
+        <div class="intro">
+          <h2>
+            "Hello there, welcome to my website. In here, I will tell you
+            everything you need to know about myself. Without further ado, let's
+            get right into it"
+          </h2>
+        </div>
+      </section>
+      <img id="img1" src="image/gilang.png" />
+
+      <div class="content1">
+        <h2>Introduction</h2>
+        <p>
+          Hello, my name is Gilang Pratama Nurdiansyah. I was born on May 2nd, 2003 in Bandung. I am currently studying at President University majoring in Information Technology. The objectives and goals I am hoping to achieve by attending this university are to be able to master programming language and to improve my English. I also hope that I can accomplish my dream, which is to become a professional web developer, after finishing college.
+        </p>
+      </div>
+      <div class="container2">
+        <img id="img2" src="image/basketball-g346c508b3_1920.jpg" />
+        <div class="content2">
+          <h2>My Passion</h2>
+          <p>
+            One thing I’m currently passionate about is experimenting with code. I love trying out new things and testing out my creativity and knowledge with coding, especially C++ and HTML. Making a new website or maybe some basic programming with coding is really interesting, and I just found out about it recently. Another thing I’m passionate about is basketball and boxing. I love playing basketball, especially playing with friends. I also love boxing because for some reason, I hate the thought of being weak.
+          </p>
+        </div>
+      </div>
+
+      <div id="border"></div>
+
+      <section id="education">
+        <h2>My Education History</h2>
+        <div>
+          <ul>
+            <li>SDN Kebon Pala 01</li>
+            <li>SDS Marhas Bandung</li>
+            <li>SDS Angkasa 7</li>
+          </ul>
+
+          <ul>
+            <li>Jacob Coy Middle School Ohio</li>
+            <li>Ferguson Hall Freshman School Ohio</li>
+          </ul>
+
+          <ul>
+            <li>SMP Negeri 80</li>
+            <li>Sulthon Aulia Boarding School</li>
+            <li>President University</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="skills">
+        <h2>My Skills</h2>
+        <div class="skills2">
+          <div class="skills3">
+            <h3>English Speaking</h3>
+
+            <div>
+              <div class="filled A">90%</div>
+            </div>
+          </div>
+          <div class="skills3">
+            <h3>Coding</h3>
+
+            <div>
+              <div class="filled B">65%</div>
+            </div>
+          </div>
+          <div class="skills3">
+            <h3>Public Speaking</h3>
+
+            <div>
+              <div class="filled C">70%</div>
+            </div>
+          </div>
+          <div class="skills3">
+            <h3>Communication Skill</h3>
+
+            <div>
+              <div class="filled D">70%</div>
+            </div>
+          </div>
+          <div class="skills3">
+            <h3>Learning Preferred Subject</h3>
+
+            <div>
+              <div class="filled E">90%</div>
+            </div>
+          </div>
+          <div class="skills3">
+            <h3>Time Management</h3>
+
+            <div>
+              <div class="filled F">60%</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="testi-text" id="testimony">
+        <h2>Here's What My Friend Said About Me</h2>
+      </div>
+
+      <section class="testi">
+        <button id="prev-Btn"><i class="fas fa-chevron-left"></i></button>
+        <div class="t">
+          <div class="timage">
+            <i class="fas fa-quote-left"></i>
+            <img src="pfp/johnpfp.jpeg" id="personimage"/>
+            <i class="fas fa-quote-right"></i>
+          </div>
+          <h3 class="tname" id="author">~John Kristian</h3>
+          <p id="review">
+            "Gilang is such a good friend. He is always eager to help others. On
+            my first day at President University, I was in a hurry and needed
+            help from someone. The first person to help me was Gilang. I am very
+            grateful to be his friend."
+          </p>
+        </div>
+        <button id="next-Btn"><i class="fas fa-chevron-right"></i></button>
+      </section>
+    </div>
+
+    <footer class="footer">
+      <div class="footer2">
+        <div id="explore">
+          <h4>Explore</h4>
+          <a href="#home">Home</a>
+          <a href="#introduction">Intro</a>
+          <a href="#education">Skills</a>
+          <a href="#testimony">Testimony</a>
+          <a href="#contact">Contact</a>
+        </div>
+
+        <div id="campus">
+          <h4>Campus</h4>
+          <a href="https://www.president.ac.id/" target="_blank"
+            ><i class="fas fa-graduation-cap"></i> President University</a
+          >
+        </div>
+
+        <div id="socialmedia">
+          <h4>Social Media</h4>
+          <a href="https://www.instagram.com/gilang.p.n/" target="_blank"
+            ><i class="fab fa-instagram"></i> Instagram</a
+          >
+          <a href="https://www.youtube.com/c/JessNoLimit" target="_blank"
+            ><i class="fab fa-youtube"></i> YouTube</a
+          >
+          <a href="https://www.facebook.com" target="_blank"
+            ><i class="fab fa-facebook-square"></i> Facebook</a
+          >
+          <a href="https://www.twitter.com" target="_blank"
+            ><i class="fab fa-twitter"></i> Twitter</a
+          >
+        </div>
+
+        <div id="contact">
+          <h4>Contact Me</h4>
+          <a href="https://wa.me/6285162624824" target="_blank"
+            ><i class="fab fa-whatsapp"></i> WhatsApp</a
+          >
+          <a href="http://line.me/ti/p/~whyutrippin"
+            ><i class="fab fa-line"></i> Line</a
+          >
+          <a
+            href="mailto:gilang.nurdiansyah@student.president.ac.id"
+            target="_blank"
+            ><i class="fas fa-envelope"></i> Email</a
+          >
+        </div>
+      </div>
+      <img src="Gilang's Site (1).png" />
+      <p id="copyright">&#169; Gilang's Site | All Rights Reserved</p>
+    </footer>
+    <script src="script.js"></script>
+
+  </body>
+  
+</html>
