@@ -129,23 +129,6 @@ nav img {
 
 }
 
-/* THIS IS MEDIA QUERY FOR HEADER/NAVBAR  */
-@media (max-width: 900px){
-    .header1 h1{
-        font-size: 0.5em;
-        text-align: center;
-    }
-    .header1 h3{
-        font-size: 0.5em;
-        text-align: center;
-    }
-    nav, .navbar {
-     transform: scale(0.9);
-    }
-    #button{
-        transform: scale(0.8);
-    }
-}
 
 /* THIS IS THE MODAL */
 .modal-overlay{
