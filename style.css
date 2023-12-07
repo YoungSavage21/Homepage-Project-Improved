@@ -255,7 +255,7 @@ p {
   margin: auto;
 }
 .intro h2 {
-  font-weight: 100;
+  font-weight: 300;
 }
 
 /* THIS IS THE CONTENT 1*/
@@ -403,7 +403,7 @@ p {
     flex-direction: column;
     height: 400px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.655), rgba(0, 0, 0, 0.655)),
-    url("image/school1.jpg") ;
+    url("image/school.jpg") ;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -464,7 +464,7 @@ p {
 }
 .filled{
     font-size: 22px;
-    font-weight: 100;
+    font-weight: 300;
     font-family: lato;
     height: 30px;
     text-align: center;
