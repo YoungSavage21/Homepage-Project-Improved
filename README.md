@@ -1,4 +1,6 @@
 # Homepage-Project-Improved
+https://youngsavage21.github.io/Homepage-Project-Improved
+
 A simple homepage site I created for my mid-exam on the first semester. Created using HTML, CSS, and JavaScript. Most of the things I implemented are learned from courses I found online.
 
 # What I learned
